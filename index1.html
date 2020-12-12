@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <title>assignment</title>
+        <style>
+            h1{
+                margin-bottom: 15px;
+            }
+            .content,.content1,.content2{
+                background-color: gray;
+                border: 2px solid black;
+                width: 30%;
+                margin: 10px;
+                position: relative;
+                padding: 5px;
+            }
+            .content h3,.content1 h3,.content2 h3{
+                border: 2px solid black;
+                float: right;
+                width: 30%;
+                text-align: center;
+                font-size: 25px;
+            }
+            .content p,.content1 p,.content2 p{
+                clear: right;
+                font-size: 20px;
+                margin-top: 10p;
+            }
+            @media(min-width: 1200px){
+                .content,.content1,.content2{
+                    float: left;
+                }
+            }
+            @media(min-width: 992px) and (max-width: 1199px){
+                
+                .content{
+                    float: left;
+                    width: 40%;
+                }
+                .content1{
+                    float: left;
+                    width: 40%;
+                }
+                .content2{
+                    float: left;
+                    width: 90%;
+                }
+                .content p{
+                    
+                    width: auto;
+                }
+                .content1 p{
+                    
+                    width: auto;
+                }
+                .content2 p{
+                    
+                    width: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Our Menu</h1>
+        <div class="container">
+            <div class="content">
+                <h3 style="background-color: palevioletred;">Chicken</h3>
+                <p>lorem ispum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content1">
+                <h3 style="background-color: red;">Beef</h3>
+                <p>lorem ispum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content2">
+                <h3 style="background-color: wheat;">Sushi</h3>
+                <p>lorem ispum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+        </div>
+    </body>
+</html>
